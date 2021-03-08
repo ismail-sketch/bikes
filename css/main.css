@@ -257,6 +257,7 @@ h6 {
 .main .header__menu-navigation {
   font-size: 18px;
   padding-bottom: 15px;
+  cursor: pointer;
 }
 .main .header__inst-face-black {
   padding-top: 25px;

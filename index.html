@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Bikes</title>
+</head>
+<body>
+  <section class="main">
+    <div class="container">
+        <div class="header__search search-header">
+            <input type="search" class="header__input-search search">
+        </div>
+        <div class="header">
+            <div class="header__logo">
+             <a href="#"> <img src="img/main_img/logo.png" alt="logo"></a>  
+            </div>
+            <div class="header__search">
+                <input type="search" class="header__input-search">
+            </div>
+            <div class="header__cart-menu">
+                <img class="header__cart" src="img/main_img/cart.png" alt="cart">
+                <div class="header__menu">
+                    <a href="#" class="header__burger"><span></span></a>
+                </div>
+            </div>
+            <div class="header__menu-window">
+                <div class="header__flex-content">
+                    <span>RU / EN</span>
+                    <img class="cart" src="img/cart.png" alt="cart">
+                </div>
+                <div class="header__menu-content">
+                     <li class="header__li-bikes">
+                         <ul class="header__menu-bikes" data-click="">ROAD SERIES</ul>
+                         <ul class="header__menu-bikes" data-click="">STREET SERIES</ul>
+                         <ul class="header__menu-bikes" data-click="">MOUNTAIN SERIES</ul>
+                     </li>   
+                     <li class="header__li-navigation">
+                         <ul class="header__menu-navigation" data-click="">Новости</ul>
+                         <ul class="header__menu-navigation" data-click="">О нас</ul>
+                         <ul class="header__menu-navigation" data-click="">Контакты</ul>
+                     </li>
+                     <img class="header__inst-face-black" src="img/inst_face-black.png" alt="inst_face">
+                </div>
+            </div>
+        </div>
+        <!-- /.header -->
+        <div class="main__title">
+            <h2>STREETSTER NATHAN</h2>
+            <h1>Удобный и быстрый<br> Твой идеал для покорения города</h1>
+            <input type="button" class="main__button" value="УЗНАТЬ БОЛЬШЕ" data-click="">
+        </div>
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <!-- CЕКЦИЯ CATEGORIES -->
+  <section class="categories">
+    <h2>Категории</h2>
+   
+    <!-- Slider main container -->
+    <div class="slide-wrp">
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                   <div class="img1">
+                        <img src="img/main_slider1/slide1.png" alt="bike">
+                        <img class="slide-title" src="img/main_slider1/ROAD SERIES.svg" alt="title">
+                   </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img2">
+                        <img src="img/main_slider1/slide2.png" alt="bike">
+                        <img class="slide-title" src="img/main_slider1/STREET SERIES.svg" alt="title">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img3">
+                        <img src="img/main_slider1/slide3.png" alt="bike">
+                        <img class="slide-title" src="img/main_slider1/OFFROAD SERIES.svg" alt="title">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <div class="container">
+        <h3>Избранные товары</h3>
+       <div class="categories__favorites-wrp">
+           <div class="categories__favorites-big-wrp">
+                <div class="categories__favorites-big">
+                    <p class="categories__big-title">Шлем Octane</p>
+                    <p class="categories__big-subtitle">защита соединенная с удобством</p>
+                    <img class="categories__big-bike" src="img/main_slider2/shlem_max.png" alt="bike">
+                    <img class="categories__arrow-slide" src="img/main_slider2/arrowslide.svg" alt="arrow">
+                </div>
+                <div class="categories__favorites-big">
+                    <p class="categories__big-title">Защита Canyon</p>
+                    <p class="categories__big-subtitle">ваш надежный спутник</p>
+                    <img class="categories__big-bike" src="img/main_slider2/boutle_max.png" alt="bike">
+                    <img class="categories__arrow-slide" src="img/main_slider2/arrowslide.svg" alt="arrow">
+                </div>
+                <div class="categories__favorites-big">
+                    <p class="categories__big-title">Streetster Bakerstreet</p>
+                    <p class="categories__big-subtitle">скорость соединенная с удобством</p>
+                    <img class="categories__big-bike" src="img/main_slider2/bike_big.png" alt="bike">
+                    <img class="categories__arrow-slide" src="img/main_slider2/arrowslide.svg" alt="arrow">
+                </div>
+                <div class="categories__favorites-big">
+                    <p class="categories__big-title">Шлем Lazer</p>
+                    <p class="categories__big-subtitle">защита + удобство</p>
+                    <img class="categories__big-bike big-shlem" src="img/main_slider2/shlem_max2.png" alt="bike">
+                    <img class="categories__arrow-slide" src="img/main_slider2/arrowslide.svg" alt="arrow">
+                </div>
+           </div>
+           
+            <div class="categories__small-wrapper">
+                <div class="categories__favorites-small-wrp">
+                    <div class="categories__favorites-small">
+                        <img class="min-shlem" src="img/main_slider2/shlem_min.png" alt="minshlem">
+                        <p>Шлем Octane</p>
+                    </div>
+                    <div class="categories__favorites-small">
+                        <img class="min-shlem" src="img/main_slider2/boutle_min.png" alt="boutlemin">
+                        <p>Защита Canyon</p>
+                    </div>
+                </div>
+                <div class="categories__favorites-small-wrp">
+                    <div class="categories__favorites-small">
+                        <img class="min-shlem" src="img/main_slider2/bike_min.png" alt="bikemin">
+                        <p>Streetster Bakerstreet</p>
+                    </div>
+                    <div class="categories__favorites-small">
+                        <img class="min-shlem" src="img/main_slider2/shlem_min2.png" alt="minshlem">
+                        <p>Шлем Lazer</p>
+                    </div>
+                </div>
+            </div>
+            
+       </div>
+    </div> 
+  </section>
+
+  <section class="streetster-discrabe">
+    <div class="container">
+        <p>
+            <span>STREETSTER</span> – Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p> 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non<br> proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+  </section>
+
+  <section class="advantages">
+    <div class="container">
+        <h2>Велосипеды Streetster это...</h2>
+        <div class="advantages__wrp">
+            <div class="advantages__advantage">
+                <img src="img/advantages/icon_adv1.svg" alt="icon">
+                <div class="advantages__text">
+                    <h3>Простота обсуживания</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="advantages__advantage">
+                <img src="img/advantages/icon_adv2.svg" alt="icon">
+                <div class="advantages__text">
+                    <h3>Надежная конструкция</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+            <div class="advantages__advantage">
+                <img src="img/advantages/icon_adv3.svg" alt="icon">
+                <div class="advantages__text">
+                    <h3>Качетсвенные детали</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="news">
+    <div class="container">
+        <h2>Новости</h2>
+        <div class="news__posts-wrp">
+            <div class="news__post">
+                <img src="img/news/news1.jpg" alt="post">
+                <p class="news__post-title">Лучшие аксессуары для<br> стрит байков</p>
+                <p class="news__post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                <a href="#" data-click="">Читать</a>
+            </div>
+            <div class="news__post">
+                <img src="img/news/news2.jpg" alt="post">
+                <p class="news__post-title">Куда поехать в Киеве?</p>
+                <p class="news__post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                <a href="#" data-click="">Читать</a>
+            </div>
+            <div class="news__post">
+                <img src="img/news/news3.jpg" alt="post">
+                <p class="news__post-title">Как обслуживать свой<br> велосипед?</p>
+                <p class="news__post-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
+                <a href="#" data-click="">Читать</a>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <div class="container">
+        <h2 class="subscribe__title">Подпишитесь на новостную рассылку</h2>
+        <form action="#" class="subscribe__form">
+            <div class="subscribe__form-group">
+                <input placeholder="Email" type="emai">
+                <button data-click="">Подписаться</button>
+            </div>
+        </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+      <div class="container">
+          <div class="footer__content-wrp">
+              <img class="footer__logo" src="img/main_img/logo.png" alt="logo">
+              <div class="footer__text-wrp">
+                <div class="footer__content1">
+                    <p>Категории</p>
+                    <li>
+                        <ul>ROAD SERIES</ul>
+                        <ul>STREET SERIES</ul>
+                        <ul>MOUNTAIN SERIES</ul>
+                    </li>
+                  </div>
+                  <div class="footer__content2">
+                      <p>Информация</p>
+                      <li>
+                          <ul>О нас</ul>
+                          <ul>Контакты</ul>
+                      </li>
+                  </div>
+                  <div class="footer__content1">
+                    <p>Категории</p>
+                    <li>
+                        <ul>ROAD SERIES</ul>
+                        <ul>STREET SERIES</ul>
+                        <ul>MOUNTAIN SERIES</ul>
+                    </li>
+                  </div>
+                  <div class="footer__content2">
+                      <p>Информация</p>
+                      <li>
+                          <ul>О нас</ul>
+                          <ul>Контакты</ul>
+                      </li>
+                  </div>
+              </div>
+              <img class="footer__inst-face" src="img/inst_face.svg" alt="social">
+          </div>
+          <p class="footer__copyright">© STREETSTER — Все права защищены </p>
+      </div>
+  </footer>
+
+  <!-- ОПОВЕЩЕНИЕ О ДЕМО ВЕРСИИ -->
+
+<div class="demo-wrp">
+    <div class="demo">
+        <span class="demo-close">&times;</span>
+        <p>Это демо версия сайта. Поэтому некоторые функции не работают.</p>
+    </div>
+</div>
+
+  <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
